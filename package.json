@@ -1,0 +1,44 @@
+{
+  "name": "am-react-button",
+  "version": "1.0.0",
+  "description": "A customizable React button component with variants, sizes, and loading states.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/Button.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc && parcel build src/Button.tsx --out-dir dist --target node",
+    "prepare": "yarn build"
+  },
+  "keywords": [
+    "react",
+    "button",
+    "UI",
+    "component",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Amit Shinde",
+  "license": "MIT",
+  "homepage": "https://github.com/amitshinde110113/am-react-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitshinde110113/am-react-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amitshinde110113/am-react-button/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "parcel-bundler": "^1.12.5",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
